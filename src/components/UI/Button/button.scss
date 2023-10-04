@@ -1,0 +1,19 @@
+.button {
+    background: linear-gradient(to right, rgb(231, 234, 238) 0%, rgb(213, 206, 223) 80% );
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    color: rgb(127, 135, 143);
+    display: flex;
+    flex-direction: column;        
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+
+    &:hover {
+        background: rgb(226, 226, 230);
+        color: rgb(113, 125, 233);
+    }
+}

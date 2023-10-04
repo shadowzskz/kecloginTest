@@ -1,0 +1,212 @@
+.main_login {
+    background-image: url('https://kec.edu.np/wp-content/uploads/2016/04/Kec_Panorama1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main_login_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+    background-color: rgba(205, 216, 216, 0.336);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.field {
+    flex-direction: column;
+}
+.error {
+    flex-direction: column;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    margin: 5px 0px 0px 10px;
+}
+
+.logo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.text {
+    margin: 30px;
+}
+
+.name_feild {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.labeltext {
+    margin: 0px;
+    padding: 0px;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 20px;
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px 0px;
+}
+
+.input:focus {
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem black;
+    border-radius: 20px;
+}
+
+.input::placeholder {
+    color: rgb(127, 135, 143);
+}
+
+.pass_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.input_row {
+    display: flex;
+    flex-direction: row;
+    width: 105%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.input_pass {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 20px;
+    width: 120%;
+    height: 28px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.input_pass:focus {
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem black;
+    border-radius: 20px;
+}
+
+.input_pass::placeholder {
+    color: rgba(177, 149, 230, 0.568);
+    font-size: 18px;
+}
+
+.check {
+    flex-direction: row;
+    accent-color: auto;
+    background: none;
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+
+    margin-right: 20px;
+    margin-top: 25px;
+    outline: none;
+}
+
+.login_button_part {
+    padding: 10px 0px;
+    left: 100px;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+.login_button {
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.4rem;
+    background: transparent;
+    color: red;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+    flex-direction: column;
+}
+
+.instructions>svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+

@@ -1,0 +1,9 @@
+.line {
+    width: 90%;
+    height: 3px;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0 1px 0;
+    background: linear-gradient(to right, rgb(88, 88, 88) 0%, rgb(201, 184, 228) 80%);
+    backdrop-filter: blur(25px);
+}
